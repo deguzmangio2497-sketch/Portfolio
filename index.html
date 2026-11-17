@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Joe-Free De Guzman | Administrative &amp; Data Support</title>
+<meta name="description" content="Portfolio of Joe-Free De Guzman: administrative support, data entry, and data accuracy for virtual assistant roles.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ffffff; --ink:#000000; --muted:#555555; --line:#d6d6d6; --soft:#f3f3f3; --btn-bg:#000000; --btn-ink:#ffffff;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif; --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#000000;--ink:#ffffff;--muted:#a8a8a8;--line:#333333;--soft:#161616;--btn-bg:#ffffff;--btn-ink:#000000;}
+}
+:root[data-theme="dark"]{--bg:#000000;--ink:#ffffff;--muted:#a8a8a8;--line:#333333;--soft:#161616;--btn-bg:#ffffff;--btn-ink:#000000;}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:focus-visible,.btn:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.5rem}
+nav{padding:1.4rem 0;display:flex;gap:1.5rem;flex-wrap:wrap;font-size:.92rem}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--ink);text-decoration:underline;text-underline-offset:4px}
+.hero{padding:4.5rem 0 4rem;border-bottom:2px solid var(--ink)}
+h1{font:500 clamp(2.9rem,9vw,6.2rem)/.98 var(--serif);letter-spacing:-.02em;margin:0 0 1.6rem}
+.hero .role{font:500 1.15rem/1.4 var(--sans);margin:0 0 1.2rem}
+.hero .lede{font:400 clamp(1.2rem,2.6vw,1.6rem)/1.45 var(--serif);max-width:38rem;margin:0 0 2rem}
+.cta{display:flex;gap:.8rem;flex-wrap:wrap;margin-bottom:1.6rem}
+.btn{display:inline-block;padding:.75rem 1.3rem;border:1.5px solid var(--ink);text-decoration:none;font-weight:500;font-size:.95rem}
+.btn.solid{background:var(--btn-bg);color:var(--btn-ink)}
+.btn:hover{background:var(--soft);color:var(--ink)}
+.btn.solid:hover{background:var(--soft);color:var(--ink)}
+.open{color:var(--muted);font-size:.95rem;margin:0}
+section{display:grid;grid-template-columns:11rem 1fr;gap:1rem 2.5rem;padding:3.2rem 0;border-bottom:1px solid var(--line)}
+h2{font:500 1.55rem/1.2 var(--serif);margin:0}
+.ledger{display:grid;margin:0}
+.row{display:grid;grid-template-columns:1fr auto;gap:1rem;padding:.95rem 0;border-top:1px solid var(--line);align-items:baseline}
+.row:first-child{border-top:0;padding-top:0}
+.row b{font-weight:600}
+.row span{color:var(--muted);font-size:.92rem;text-align:right}
+.help{display:grid;grid-template-columns:repeat(2,1fr);gap:1.8rem 2.2rem}
+.help h3,.job h3{font:600 1.02rem/1.3 var(--sans);margin:0 0 .3rem}
+.help p{margin:0;color:var(--muted);font-size:.97rem}
+.job{padding:0 0 2rem 1.4rem;border-left:2px solid var(--ink);position:relative}
+.job:last-child{padding-bottom:0}
+.job::before{content:"";position:absolute;left:-6px;top:.45rem;width:10px;height:10px;background:var(--bg);border:2px solid var(--ink);border-radius:50%}
+.job .meta{color:var(--muted);font-size:.92rem;margin:0 0 .7rem}
+.job ul{margin:0;padding-left:1.1rem}
+.job li{margin-bottom:.4rem;max-width:40rem}
+.tools{display:flex;flex-wrap:wrap;gap:.5rem;margin:0 0 1.3rem;padding:0;list-style:none}
+.tools li{border:1.5px solid var(--ink);padding:.35rem .8rem;font-weight:500;font-size:.95rem}
+.skills p{margin:0 0 .6rem}
+.skills p span{color:var(--muted)}
+.contact a{display:block;font:500 clamp(1.3rem,3.4vw,2rem)/1.35 var(--serif);width:fit-content;margin-bottom:.2rem}
+.contact p{color:var(--muted);margin:1rem 0 0}
+footer{padding:2rem 0 3rem;color:var(--muted);font-size:.88rem}
+@media (max-width:760px){
+  section{grid-template-columns:1fr;padding:2.4rem 0}
+  .help{grid-template-columns:1fr}
+  .hero{padding:3rem 0}
+  .row{grid-template-columns:1fr}
+  .row span{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Sections">
+    <a href="#results">Results</a><a href="#help">How I can help</a><a href="#experience">Experience</a><a href="#tools">Tools</a><a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero">
+    <h1>Joe-Free De Guzman</h1>
+    <p class="role">Administrative Assistant, Data Entry Specialist, and Data Analyst</p>
+    <p class="lede">I have spent eight years keeping records accurate, deadlines met, and clients and underwriters on the same page, first in customer support and then in insurance brokerage operations.</p>
+    <div class="cta">
+      <a class="btn solid" href="mailto:deguzmangio2497@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/joe-free-de-guzman-b8b05737a/" target="_blank" rel="noopener">View LinkedIn profile</a>
+    </div>
+    <p class="open">Open to virtual assistant roles. Based in Quezon City, Philippines.</p>
+  </header>
+
+  <section id="results">
+    <h2>Results from my work</h2>
+    <div class="ledger">
+      <div class="row"><b>100% accuracy on 800–1,000 customer orders a day</b><span>Infosys BPM</span></div>
+      <div class="row"><b>Zero data discrepancies in the customer account database</b><span>Infosys BPM</span></div>
+      <div class="row"><b>100% pricing accuracy on workers’ compensation coverage requests</b><span>Acquire Intelligence</span></div>
+      <div class="row"><b>100% on-time renewal rate</b><span>Acquire Intelligence</span></div>
+      <div class="row"><b>100% average customer satisfaction (CSAT) score</b><span>Telus International</span></div>
+      <div class="row"><b>70 inbound inquiries resolved daily, ahead of resolution time targets</b><span>Alorica</span></div>
+    </div>
+  </section>
+
+  <section id="help">
+    <h2>How I can help</h2>
+    <div class="help">
+      <div><h3>Administrative support</h3><p>Logging submissions, preparing and organizing files, managing deadlines, and handling special projects.</p></div>
+      <div><h3>Data entry and record keeping</h3><p>High-volume entry, database updates, and verification, kept accurate and on schedule.</p></div>
+      <div><h3>Data review</h3><p>Reading complex loss run reports and checking pricing so the details in each file are correct.</p></div>
+      <div><h3>Client and team coordination</h3><p>Keeping clients and underwriters informed so requests are completed on time.</p></div>
+      <div><h3>Customer and technical support</h3><p>Answering questions by phone, email, and chat, and walking people through account and website setup.</p></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div>
+      <div class="job">
+        <h3>Brokerage Admin Assistant, Acquire Intelligence</h3>
+        <p class="meta">June 2023 to September 2026</p>
+        <ul>
+          <li>Processed workers’ compensation coverage requests with multiple underwriters, entering and verifying pricing with 100% accuracy.</li>
+          <li>Analyzed complex loss run reports and prepared policy files, achieving a 100% on-time renewal rate.</li>
+          <li>Logged new submissions and bound quotes monthly, keeping records complete and organized for underwriting review.</li>
+          <li>Coordinated communication between clients and underwriters and completed special projects on request.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Senior Process Executive, Infosys BPM</h3>
+        <p class="meta">April 2022 to May 2023</p>
+        <ul>
+          <li>Processed and entered 800–1,000 customer orders daily with 100% accuracy, meeting every SLA deadline.</li>
+          <li>Maintained and updated the customer account database, resolving ad-hoc requests with zero data discrepancies.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Customer Service Representative and Tech Support, Telus International</h3>
+        <p class="meta">March 2021 to March 2022</p>
+        <ul>
+          <li>Guided customers through complex account setups and website creation on Wix.com, earning a 100% average CSAT score.</li>
+          <li>Resolved account and technical issues across phone, email, and chat.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Customer Service Representative, Alorica</h3>
+        <p class="meta">August 2018 to February 2021</p>
+        <ul>
+          <li>Resolved an average of 70 inbound inquiries daily via phone, email, and chat, consistently exceeding resolution time targets.</li>
+          <li>Tracked order status end to end to keep customer records accurate.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools" class="skills">
+    <h2>Tools and skills</h2>
+    <div>
+      <ul class="tools">
+        <li>Oracle</li><li>ServiceNow</li><li>IMEC</li><li>Microsoft Office Suite</li><li>CRM systems</li><li>Insurance portals</li><li>Wix</li>
+      </ul>
+      <p><b>Administrative:</b> <span>records and policy file management, submission logging, deadline management, documentation accuracy</span></p>
+      <p><b>Data:</b> <span>data entry, database maintenance, loss run report analysis, pricing and quote verification, quality control</span></p>
+      <p><b>Operations:</b> <span>brokerage operations, renewals, order and account management, phone, email, and chat support</span></p>
+      <p><b>Education:</b> <span>Bachelor of Science in Civil Engineering, University of Pangasinan</span></p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <div>
+      <a href="mailto:deguzmangio2497@gmail.com">deguzmangio2497@gmail.com</a>
+      <a href="tel:+639196447190">0919 644 7190</a>
+      <a href="https://wa.me/639196447190" target="_blank" rel="noopener">WhatsApp / Viber: 0919 644 7190</a>
+      <a href="https://www.linkedin.com/in/joe-free-de-guzman-b8b05737a/" target="_blank" rel="noopener">LinkedIn</a>
+      <p>Quezon City, NCR, Philippines</p>
+    </div>
+  </section>
+
+  <footer>© 2026 Joe-Free De Guzman</footer>
+</div>
+</body>
+</html>
